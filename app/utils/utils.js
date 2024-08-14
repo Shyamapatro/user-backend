@@ -49,7 +49,6 @@ const sendEmail = async (email, password) => {
         to: email,
         subject: 'Your Account Has Been Successfully Created',
         html: `<div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
-            <h2 style="color: #4CAF50;">Welcome to [Your Company Name]!</h2>
             <p>We're excited to have you on board. Your account has been successfully created.</p>
             <p><strong>Your login credentials are:</strong></p>
             <ul style="list-style: none; padding: 0;">
